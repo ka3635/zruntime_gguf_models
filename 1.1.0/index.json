@@ -1,18 +1,32 @@
 {
   "version": "1.0",
-  "generated": "2026-06-22T20:06:38.480389Z",
+  "generated": "2026-06-22T14:36:38.480389Z",
   "baseUrl": "https://github.com/ka3635/zruntime_gguf_models/releases/download/v1.1.0",
   "models": [
     {
       "name": "qwen3_vl_instruct_2b.gguf",
       "modelName": "Qwen3 VL 2B Instruct",
-      "category": "QWEN",
+      "category": "text",
       "backend": "cpu",
       "hash": "d2c3ad6e5187bf76ce8d678044f9c12396ff0bfe6aaf6f51d26ebe8308b00062",
       "size": 1107410080,
       "sizeMB": 1107.41,
       "inputSize": 128,
-      "remoteUrl": "",
+      "remoteUrl": "https://github.com/ka3635/zruntime_gguf_models/releases/download/v1.1.0/qwen3_vl_q4.gguf",
+      "labelsFile": "",
+      "labelsRemoteUrl": "",
+      "backendDescription": "llama.cpp backend (CPU-optimized) gguf"
+    },
+    {
+      "name": "qwen3_vl_mmproj_q8.gguf",
+      "modelName": "Qwen3 VL mmproj Q8",
+      "category": "vision",
+      "backend": "cpu",
+      "hash": "5bed32e95c8715a49d0dace492ca3d249a0077c3c2cd43fb0520c9fc532bf9cd",
+      "size": 445053312,
+      "sizeMB": 445.05,
+      "inputSize": 128,
+      "remoteUrl": "https://github.com/ka3635/zruntime_gguf_models/releases/download/v1.1.0/qwen3_vl_mmproj_q8.gguf",
       "labelsFile": "",
       "labelsRemoteUrl": "",
       "backendDescription": "llama.cpp backend (CPU-optimized) gguf"
