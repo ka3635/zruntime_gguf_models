@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "generated": "2026-06-22T14:36:38.480389Z",
-  "baseUrl": "https://github.com/ka3635/zruntime_gguf_models/releases/download/v1.1.0",
+  "baseUrl": "https://github.com/ka3635/zruntime_gguf_models",
   "models": [
     {
       "name": "qwen3_vl_instruct_2b.gguf",
@@ -12,7 +12,7 @@
       "size": 1107410080,
       "sizeMB": 1107.41,
       "inputSize": 128,
-      "remoteUrl": "https://github.com/ka3635/zruntime_gguf_models/releases/download/v1.1.0/qwen3_vl_q4.gguf",
+      "remoteUrl": "https://github.com/ka3635/zruntime_gguf_models/releases/download/v1.1.0/qwen3_vl_instruct_2b.gguf",
       "labelsFile": "",
       "labelsRemoteUrl": "",
       "backendDescription": "llama.cpp backend (CPU-optimized) gguf"
